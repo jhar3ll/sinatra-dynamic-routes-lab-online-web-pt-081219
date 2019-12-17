@@ -12,4 +12,8 @@ end
     @squarenumber = (params[:number].to_i ** 2).to_s
     return @squarenumber
   end 
+  
+  get '/say/:number/:phrase' do 
+    @numberphrase = params[:phrase]
+    
 end
