@@ -17,7 +17,7 @@ end
   @numberphrase = ""
   
     params[:number].to_i.times do 
-      return params[:phrase]
+    @numberphrase = @numberphrase + params[:phrase]
   end 
   
     return @numberphrase
