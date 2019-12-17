@@ -24,6 +24,6 @@ end
  return @numberphrase
 end
 
-   
+  get '/say/:word1/:word' 
     
 end
