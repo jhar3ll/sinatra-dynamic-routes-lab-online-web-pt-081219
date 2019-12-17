@@ -13,14 +13,16 @@ end
     return @squarenumber
   end 
   
+  
   get '/say/:number/:phrase' do 
-  @numberphrase = ""
   
     params[:number].to_i.times do 
-    @numberphrase = @numberphrase + params[:phrase]
+    @numberphrase = "" + params[:phrase]
   end 
   
  return @numberphrase
 end
+
+  get 
     
 end
