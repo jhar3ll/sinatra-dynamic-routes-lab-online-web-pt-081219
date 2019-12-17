@@ -15,15 +15,15 @@ end
   
   
   get '/say/:number/:phrase' do 
-  @emptystr = ""
+  @numberphrase = ""
   
     params[:number].to_i.times do 
-    @numberphrase = @emptystr + params[:phrase]
+    @numberphrase = @numberphrase + params[:phrase]
   end 
   
  return @numberphrase
 end
 
-  
+   
     
 end
