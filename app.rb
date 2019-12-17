@@ -20,7 +20,7 @@ end
     @numberphrase = @numberphrase + params[:phrase]
   end 
   
-    return @numberphrase
+ return @numberphrase
 end
     
 end
