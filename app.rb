@@ -33,7 +33,7 @@ end
     number1 = params[:number1].to_i
     number2 = params[:number2].to_i
 
-    answer = 'error'
+    answer = 'Unable to perform this operation'
 
     case params[:operation]
     when 'add'
