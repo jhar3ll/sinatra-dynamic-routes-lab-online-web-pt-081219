@@ -33,7 +33,7 @@ end
     number1 = params[:number1].to_i
     number2 = params[:number2].to_i
 
-    
+    answer = 'Unable to perform this operation'
 
     case params[:operation]
     when 'add'
@@ -44,8 +44,6 @@ end
       answer = (number1 * number2).to_s
     when 'divide'
       answer = (number1 / number2).to_s
-    else 
-      puts "error"
     end
   end
 end
