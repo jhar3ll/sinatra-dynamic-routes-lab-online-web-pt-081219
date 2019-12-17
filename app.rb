@@ -17,7 +17,7 @@ end
   get '/say/:number/:phrase' do 
   
     params[:number].to_i.times do 
-    @numberphrase = "" + params[:phrase]
+    @numberphrase = (" " + params[:phrase]
   end 
   
  return @numberphrase
