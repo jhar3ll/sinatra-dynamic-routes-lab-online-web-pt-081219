@@ -14,6 +14,6 @@ end
   end 
   
   get '/say/:number/:phrase' do 
-    @numberphrase = params[:phrase]
+    @numberphrase = params[:number].to_i
     
 end
