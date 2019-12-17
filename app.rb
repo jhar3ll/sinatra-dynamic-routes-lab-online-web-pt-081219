@@ -8,4 +8,7 @@ class App < Sinatra::Base
   return @reversename
 end
 
+  get '/square/:number' do 
+    @squarenumber = params[:number]
+
 end
